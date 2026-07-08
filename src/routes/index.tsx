@@ -717,9 +717,9 @@ function Contact() {
         <div className="mt-20 grid md:grid-cols-4 gap-10 md:gap-12">
           {[
             { l: "Atelier", v: "South Delhi\nNew Delhi, India" },
-            { l: "Email", v: "hello@anchhi.com" },
-            { l: "Instagram", v: "@anchhi" },
-            { l: "Telephone", v: "+91 XXXXX XXXXX" },
+            { l: "Email", v: "Soon" },
+            { l: "Instagram", v: "Soon" },
+            { l: "Telephone", v: "+Soon" },
           ].map((c) => (
             <div key={c.l} className="reveal text-center md:text-left">
               <p className="font-button text-[10px] tracking-[0.4em] text-[color:var(--gold)]">
