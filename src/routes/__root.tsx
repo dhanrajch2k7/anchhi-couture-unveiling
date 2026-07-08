@@ -77,14 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Anchhi — Luxury Fashion House | South Delhi Couture" },
+      {
+        name: "description",
+        content:
+          "Anchhi is a luxury Indian couture house in South Delhi crafting handcrafted bridal, evening and occasion wear. Timeless elegance, crafted before its time.",
+      },
+      { name: "author", content: "Anchhi" },
+      { name: "theme-color", content: "#F7F4EF" },
+      { property: "og:title", content: "Anchhi — Luxury Fashion House" },
+      {
+        property: "og:description",
+        content:
+          "A South Delhi couture house dedicated to handcrafted bridal, evening and occasion wear. Join the pre-launch list.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Anchhi" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@anchhi" },
     ],
     links: [
       {
@@ -92,6 +102,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Montserrat:wght@400;500;600&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,
