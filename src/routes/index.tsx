@@ -628,8 +628,8 @@ function WhyAnchhi() {
 function Launch() {
   const target = useMemo(() => {
   const d = new Date();
-  d.setDate(d.getDate() + 1);
-  d.setHours(d.getHours() + 20);
+  d.setDate(d.getDate() + 0);
+  d.setHours(d.getHours() + 0);
   return d;
 }, []);
   const { d, h, m, s } = useCountdown(target);
