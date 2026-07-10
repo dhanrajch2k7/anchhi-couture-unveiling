@@ -71,7 +71,7 @@ const NAV = [
   { href: "#about", label: "About" },
   { href: "#vision", label: "Vision" },
   { href: "#founder", label: "Founders" },
-  { href: "#artisan", label: "Master Artisan" },
+  { href: "#artisan", label: "Master" },
   { href: "#collections", label: "Collections" },
   { href: "#craftsmanship", label: "Craftsmanship" },
   { href: "#launch", label: "Launch" },
@@ -406,7 +406,7 @@ function Artisan() {
         <div className="text-center reveal">
           <SectionEyebrow>The Atelier</SectionEyebrow>
           <h2 className="mt-6 font-display text-4xl md:text-6xl leading-[1.05] text-[color:var(--ink)]">
-            Master Artisan
+            Master 
           </h2>
           <span className="mt-8 mx-auto block hairline w-24" />
         </div>
@@ -414,20 +414,20 @@ function Artisan() {
         <div className="mt-20 grid lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)] gap-12 lg:gap-20 items-center">
           <div className="reveal order-2 lg:order-1">
             <p className="font-serif-elegant italic text-[color:var(--gold)] tracking-[0.28em] text-xs">
-              Master Artisan
+              Master 
             </p>
             <h3 className="mt-4 font-display text-4xl md:text-5xl text-[color:var(--ink)]">
-              Mir Irfaan
+              Mir Irfan
             </h3>
             <span className="mt-6 block hairline w-20" />
             <p className="mt-8 font-serif-elegant text-lg md:text-xl leading-[1.9] text-[color:var(--charcoal)]">
               With years of experience mastering intricate embroidery, garment construction, and
-              couture finishing techniques, Mir Irfaan leads the craftsmanship behind Anchhi's
+              couture finishing techniques, Mir Irfan leads the craftsmanship behind Anchhi's
               creations.
             </p>
             <p className="mt-6 font-serif-elegant text-lg md:text-xl leading-[1.9] text-[color:var(--charcoal)]">
               His dedication to precision and attention to detail ensures every piece embodies the
-              highest standards of luxury tailoring and artisanal excellence.
+              highest standards of luxury tailoring and excellence.
             </p>
 
             <dl className="mt-12 grid grid-cols-3 gap-6">
@@ -448,7 +448,7 @@ function Artisan() {
           <div className="reveal order-1 lg:order-2">
             <PortraitFrame
               src={artisanImg}
-              alt="Mir Irfaan, Master Artisan of Anchhi"
+              alt="Mir Irfan, Master of Anchhi"
               width={1200}
               height={1600}
             />
