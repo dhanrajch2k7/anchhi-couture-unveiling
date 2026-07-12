@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import heroImg from "@/assets/hero.jpg";
-import founderImg from "@/assets/founder.jpg";
 import artisanImg from "@/assets/artisan.jpg";
 import craftImg from "@/assets/craft.jpg";
 import visionImg from "@/assets/vision.jpg";
@@ -360,14 +359,6 @@ function Founder() {
         </div>
 
         <div className="mt-20 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] gap-12 lg:gap-20 items-center">
-          <div className="reveal">
-            <PortraitFrame
-              src={founderImg}
-              alt="Naresh Kumar, Co-Founder of Anchhi"
-              width={1200}
-              height={1600}
-            />
-          </div>
           <div className="reveal">
             <p className="font-serif-elegant italic text-[color:var(--gold)] tracking-[0.28em] text-xs">
               Co-Founder
