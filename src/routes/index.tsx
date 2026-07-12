@@ -382,7 +382,7 @@ function Founder() {
               individuality through luxury couture.
             </p>
             <p className="mt-6 font-serif-elegant text-lg md:text-xl leading-[1.9] text-[color:var(--charcoal)]">
-              his vision focuses on creating garments that combine modern elegance with meticulous
+              His vision focuses on creating garments that combine modern elegance with meticulous
               artistry, ensuring every collection reflects sophistication, confidence, and enduring
               style.
             </p>
